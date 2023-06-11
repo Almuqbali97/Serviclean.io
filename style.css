@@ -266,6 +266,7 @@ section {
 @media (max-width: 990px) {
     #menu-icon {
         display: block;
+        
     }
     .navlist {
         position: absolute;
@@ -273,7 +274,8 @@ section {
         right: -100%;
         width: 300px;
         height: 40vh;
-        background:#decba478;
+        background:hsla(39, 48%, 76%, 0.708);
+        backdrop-filter: blur(10px);
         display: flex;
         align-items: center;
         flex-direction: column;
